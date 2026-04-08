@@ -8,8 +8,6 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export DESKTOP=DUMMY
-export MAIN_BIN=exec.sh
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin/* \
