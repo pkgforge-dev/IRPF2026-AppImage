@@ -21,5 +21,5 @@ bsdtar -xvf IRPF2026-1.0.zip --strip-components=1
 rm -f *.zip
 
 mkdir -p ./AppDir/bin
-sed -i 's|\./jre/bin/java|exec java|' exec.sh
+sed -i 's|\./jre/bin/java -jar irpf.jar|exec java -jar "$APPDIR/irpf.jar" "$@"|' exec.sh
 mv -v exec.sh lib lib-modulos irpf.jar IRPF.acb offline.png online.png pgd-updater-1.0.0.jar ./AppDir/bin
