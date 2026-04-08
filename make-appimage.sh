@@ -12,7 +12,7 @@ export DESKTOP=DUMMY
 export MAIN_BIR=java -jar irpf.jar
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/irpf.jar \
+quick-sharun ./AppDir/bin/* \
 /usr/lib/jvm/java*/bin \
 /usr/lib/jvm/java*/conf \
 /usr/lib/jvm/java*/legal \
