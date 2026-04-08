@@ -37,4 +37,4 @@ O atualizador automático é desativado por padrão se existirem gerenciadores d
 
 ---
 
-More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
+Mais informações em: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
