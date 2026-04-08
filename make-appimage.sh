@@ -8,10 +8,15 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export DESKTOP=PATH_OR_URL_TO_DESKTOP_ENTRY
+export DESKTOP=DUMMY
+export MAIN_BIR=java -jar irpf.jar
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun ./AppDir/bin/irpf.jar \
+/usr/lib/jvm/java*/bin \
+/usr/lib/jvm/java*/conf \
+/usr/lib/jvm/java*/legal \
+/usr/lib/jvm/java*/lib
 
 # Additional changes can be done in between here
 
