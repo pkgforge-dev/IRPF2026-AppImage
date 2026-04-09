@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/IRPF2026-AppImage)](https://github.com/pkgforge-dev/IRPF2026-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Link4Electronics/IRPF2026-AppImage/refs/heads/main/AppDir/br.gov.fazenda.receita.irpf2026.png" width="128" />
+  <img src="https://raw.githubusercontent.com/pkgforge-dev/IRPF2026-AppImage/refs/heads/main/AppDir/br.gov.fazenda.receita.irpf2026.png" width="128" />
 </p>
 
 
